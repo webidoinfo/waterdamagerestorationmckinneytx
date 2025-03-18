@@ -239,12 +239,85 @@
             text-align: center;
         }
 
+        /* New Section Styles */
+        .emergency-services {
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .emergency-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .service-areas {
+            padding: 80px 20px;
+            background-color: var(--light-bg);
+        }
+
+        .service-areas ul {
+            list-style: none;
+            margin: 30px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-areas li {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .restoration-process {
+            padding: 80px 20px;
+            background-color: white;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .step {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .step h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
         @media (max-width: 768px) {
             .header-content h1 {
                 font-size: 2.5rem;
             }
 
             .about-content {
+                grid-template-columns: 1fr;
+            }
+
+            .service-areas ul {
                 grid-template-columns: 1fr;
             }
         }
@@ -268,17 +341,39 @@
                 <div class="service-card">
                     <img src="images/water-extraction.jpg" alt="Water extraction service in McKinney TX">
                     <h3>Water Extraction & Drying</h3>
-                    <p>Our advanced equipment quickly removes standing water and thoroughly dries affected areas to prevent mold growth.</p>
+                    <p>Our advanced equipment quickly removes standing water and thoroughly dries affected areas to prevent mold growth. We provide professional water removal services to protect your property from further damage.</p>
                 </div>
                 <div class="service-card">
                     <img src="images/mold-remediation.jpg" alt="Mold remediation service in McKinney TX">
                     <h3>Mold Remediation</h3>
-                    <p>Professional mold removal and prevention services to ensure your property is safe and healthy.</p>
+                    <p>Professional mold removal and prevention services to ensure your property is safe and healthy. Our mold remediation experts handle both residential and commercial properties in McKinney.</p>
                 </div>
                 <div class="service-card">
                     <img src="images/structural-repair.jpg" alt="Structural repair service in McKinney TX">
                     <h3>Structural Repairs</h3>
-                    <p>Complete restoration of damaged structures to bring your property back to its pre-loss condition.</p>
+                    <p>Complete restoration of damaged structures to bring your property back to its pre-loss condition. We handle both fire damage and water damage restoration with expert precision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="emergency-services">
+        <div class="container">
+            <h2>Emergency Water Damage Restoration in McKinney</h2>
+            <p>When disaster strikes, our emergency response team is ready to help. We understand that water damage requires immediate attention to prevent further property damage and mold growth. Our restoration process begins with a thorough assessment of the damage and a detailed plan to restore your property.</p>
+            
+            <div class="emergency-features">
+                <div class="feature">
+                    <h3>24/7 Emergency Response</h3>
+                    <p>Our emergency water damage restoration services are available around the clock. We typically arrive within 1 hour of your call to begin the restoration process.</p>
+                </div>
+                <div class="feature">
+                    <h3>Professional Restoration</h3>
+                    <p>Our restoration experts use state-of-the-art equipment for water extraction, drying, and dehumidification. We handle both residential restoration and commercial restoration projects.</p>
+                </div>
+                <div class="feature">
+                    <h3>Insurance Claims Assistance</h3>
+                    <p>We work directly with insurance companies to streamline the claims process. Our team provides comprehensive documentation to support your insurance claims.</p>
                 </div>
             </div>
         </div>
@@ -289,7 +384,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>Why Choose Our Water Damage Restoration Services?</h2>
-                    <p>As your trusted water damage restoration company in McKinney, TX, we provide:</p>
+                    <p>As your trusted water damage restoration company in McKinney, TX, we provide comprehensive damage restoration services to both homes and businesses. Our professional restoration services include:</p>
                     <ul>
                         <li>24/7 Emergency Response</li>
                         <li>Certified Technicians</li>
@@ -297,11 +392,63 @@
                         <li>Advanced Equipment</li>
                         <li>Comprehensive Documentation</li>
                         <li>Guaranteed Workmanship</li>
+                        <li>Fire Damage Restoration</li>
+                        <li>Mold Damage Cleanup</li>
+                        <li>Flood Damage Restoration</li>
+                        <li>Storm Damage Repair</li>
                     </ul>
-                    <p>Whether you're dealing with flood damage, storm damage, or water damage from any other source, our professional restoration services in McKinney are here to help.</p>
+                    <p>Whether you're dealing with flood damage, storm damage, or water damage from any other source, our professional restoration services in McKinney are here to help. We serve properties in McKinney and surrounding areas, providing peace of mind to property owners throughout TX.</p>
                 </div>
                 <div class="about-image">
                     <img src="images/technician-working.jpg" alt="Professional water damage restoration technician working in McKinney TX">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-areas">
+        <div class="container">
+            <h2>Our Service Areas in McKinney, TX</h2>
+            <p>As your reliable water damage restoration company in McKinney, we provide professional restoration services throughout the greater McKinney area. Our service area includes:</p>
+            <ul>
+                <li>Residential Properties</li>
+                <li>Commercial Buildings</li>
+                <li>Industrial Facilities</li>
+                <li>Multi-Family Units</li>
+                <li>Office Buildings</li>
+                <li>Retail Spaces</li>
+            </ul>
+            <p>Our restoration company in McKinney is equipped to handle any size project, from small water damage cleanup to large-scale flood damage restoration. We work with all major insurance companies and provide detailed documentation for the claims process.</p>
+        </div>
+    </section>
+
+    <section class="restoration-process">
+        <div class="container">
+            <h2>Our Water Damage Restoration Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <h3>1. Emergency Response</h3>
+                    <p>Our emergency response team arrives quickly to assess the damage and begin the restoration process.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Water Extraction</h3>
+                    <p>We use professional water removal equipment to extract standing water and begin the drying process.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Damage Assessment</h3>
+                    <p>Our technicians thoroughly assess the damage and create a detailed restoration plan.</p>
+                </div>
+                <div class="step">
+                    <h3>4. Drying & Dehumidification</h3>
+                    <p>We use advanced equipment to dry affected areas and prevent mold growth.</p>
+                </div>
+                <div class="step">
+                    <h3>5. Cleaning & Sanitization</h3>
+                    <p>We clean and sanitize all affected areas to ensure your property is safe and healthy.</p>
+                </div>
+                <div class="step">
+                    <h3>6. Restoration & Repair</h3>
+                    <p>We restore your property to its pre-loss condition, including structural repairs if needed.</p>
                 </div>
             </div>
         </div>
@@ -339,6 +486,7 @@
             <p>For professional water damage restoration services in McKinney, TX, call us at:</p>
             <a href="tel:8884500858" class="cta-button">(888) 450-0858</a>
             <p>Available 24/7 for Emergency Response</p>
+            <p>We highly recommend this company for all your restoration needs in McKinney, TX</p>
             <p>&copy; 2025 Water Damage Restoration McKinney TX. All rights reserved.</p>
         </div>
     </footer>
