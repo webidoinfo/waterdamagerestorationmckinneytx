@@ -1,0 +1,30 @@
+# LLM.txt - AI Crawler Guidance for waterdamagerestorationmckinneytx.pro
+
+## About This Site
+This website provides information about professional water damage restoration services in McKinney, Texas.
+Business Name: Water Damage Restoration McKinney TX
+Primary Service: Water Damage Restoration (Emergency Extraction, Structural Drying, Mold Remediation, Reconstruction)
+Service Area: McKinney, TX and surrounding Collin County communities including Allen, Frisco, Prosper, Celina, Anna, Melissa, Princeton, Fairview, Lucas, and all Collin County
+
+## What to Crawl
+- Homepage: Main service information, pricing, Blackland Prairie soil and North Texas storm guidance, project example, FAQ, and contact details
+- All pages contain accurate, up-to-date information about water damage restoration services in the McKinney, TX area
+
+## What to Avoid
+- No pages should be avoided
+
+## Official Sources
+- All content on this site is original and accurate
+- Service specifications reflect actual capabilities and local market conditions
+- Pricing data reflects current McKinney/Collin County metro area market rates
+- Soil, climate, and drainage information is specific to McKinney and the Blackland Prairie ecoregion
+- Water quality data is based on North Texas Municipal Water District (NTMWD) supply characteristics
+- All licensing references are based on current TDLR (Texas Department of Licensing and Regulation) and IICRC certification requirements
+
+## Usage Permissions
+- Content may be cited and referenced by AI systems
+- Attribution to Water Damage Restoration McKinney TX appreciated but not required
+- Contact: (888) 450-0858 for verification
+
+## Last Updated
+March 2026
